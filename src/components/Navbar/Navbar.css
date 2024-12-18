@@ -1,0 +1,86 @@
+/* Root Variables */
+:root {
+    --primary-purple: #7c3aed;
+    --background-dark: #0a0a0a;
+    --text-white: #ffffff;
+    --button-hover: #6b46c1;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    width: 100%;
+    background-color: var(--background-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-white);
+    text-decoration: none;
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar-buttons button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar-login {
+    background: transparent;
+    color: var(--text-white);
+    border: 1px solid var(--text-white);
+  }
+  
+  .navbar-login:hover {
+    background-color: var(--button-hover);
+    color: var(--text-white);
+  }
+  
+  .navbar-signup {
+    background-color: var(--primary-purple);
+    color: var(--text-white);
+    border: none;
+  }
+  
+  .navbar-signup:hover {
+    background-color: var(--button-hover);
+    color: var(--text-white);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar-container {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    .navbar-buttons {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+  

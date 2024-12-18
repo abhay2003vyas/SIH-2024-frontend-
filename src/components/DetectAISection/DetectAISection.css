@@ -1,0 +1,35 @@
+/* Root Variables */
+:root {
+    --primary-font: "Arial, sans-serif";
+    --headline-color: #000000;
+    --subheadline-color: #4a4a4a;
+    --section-padding: 4rem 2rem;
+  }
+  
+  /* Section Styling */
+  .detect-ai-section {
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    padding: var(--section-padding);
+  }
+  
+  .detect-ai-section .content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .headline {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--headline-color);
+    margin-bottom: 1rem;
+  }
+  
+  .subheadline {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--subheadline-color);
+    line-height: 1.6;
+  }
+  

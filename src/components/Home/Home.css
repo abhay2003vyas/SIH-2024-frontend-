@@ -1,0 +1,16 @@
+.home {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+  }
+  
+  .home-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-description {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
